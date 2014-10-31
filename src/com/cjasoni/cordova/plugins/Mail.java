@@ -92,9 +92,9 @@ public class Mail extends javax.mail.Authenticator {
         msg.setSentDate(new Date()); 
 
         // setup message body 
-        BodyPart messageBodyPart = new MimeBodyPart(); 
-        messageBodyPart.setText(_body); 
-        _multipart.addBodyPart(messageBodyPart); 
+        BodyPart messageBodyPart = new MimeBodyPart();
+        messageBodyPart.setContent(_body, "text/html");
+        _multipart.addBodyPart(messageBodyPart);
 
         // Put parts in message 
         msg.setContent(_multipart); 
