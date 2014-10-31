@@ -1,4 +1,4 @@
-package com.cjasoni.cordova.utility;
+package com.cjasoni.cordova.plugins;
 
 import java.util.Date;
 import java.util.Properties;

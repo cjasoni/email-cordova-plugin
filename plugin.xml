@@ -19,7 +19,7 @@
         <clobbers target="cordova.plugins.emailComposer" />
     </js-module>
     
-    <!-- <asset src="www/email.js" target="www/email.js" /> -->
+     <asset src="www/email.js" target="www/email.js" />
    
     <platform name="android">
         
