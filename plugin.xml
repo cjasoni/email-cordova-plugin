@@ -23,7 +23,8 @@
    
     <platform name="android">
         
-        <source-file src="src/com/cjasoni/cordova/plugins/EmailComposer.java" target-dir="src/com/cjasoni/cordova/plugins" />		
+        <source-file src="src/com/cjasoni/cordova/plugins/EmailComposer.java" target-dir="src/com/cjasoni/cordova/plugins" />	
+        <source-file src="src/com/cjasoni/cordova/plugins/Mail.java" target-dir="src/com/cjasoni/cordova/plugins" />		
         
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="EmailComposer">
